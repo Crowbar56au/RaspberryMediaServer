@@ -1,0 +1,5 @@
+1. Download and extract the Raspberry NOOB installer to a formatted SD card (Help is here: https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up)
+2. Add a mouse and keyboard to the white USB ports
+3. attach a monitor to the micro-HDMI port
+4. insert the SD card into Raspberry Pi 4 and supply power
+5. choose an operating system from the installer and click on the install button
