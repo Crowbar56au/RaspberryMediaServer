@@ -3,3 +3,9 @@
 3. attach a monitor to the micro-HDMI port
 4. insert the SD card into Raspberry Pi 4 and supply power
 5. choose an operating system from the installer and click on the install button
+6. wait for the install to complete, allow the process to upgrade the distro and reboot
+7. install Remote Desktop capability (Help is here: https://www.youtube.com/watch?v=BxqnhEqPyGg)
+8. in a terminal install "tightvncserver": sudo apt-get install tightvncserver
+9. in a terminal install "xrdp": sudo apt-get install xrdp
+10. in a terminal issue ifconfig command and retrieve the ip address of you raspberry. (eg: 192.168.1.15)
+11. 
