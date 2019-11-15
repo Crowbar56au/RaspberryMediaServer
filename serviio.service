@@ -1,0 +1,12 @@
+[Unit]
+Description=Serviio media Server
+After=syslog.target network.target
+
+[Service]
+User=serviio
+[change the serviio version as required]
+ExecStart=/opt/serviio-2.0/bin/serviio.sh
+ExecStop=/opt/serviio-2.0/bin/serviio.sh -stop
+
+[Install]
+WantedBy=multi-user.target
