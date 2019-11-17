@@ -1,11 +1,13 @@
-1. Download and extract the Raspberry NOOB installer to a formatted SD card (Help is here: https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up)
-2. Add a mouse and keyboard to the white USB ports
-3. attach a monitor to the micro-HDMI port
-4. insert the SD card into Raspberry Pi 4 and supply power
-5. choose an operating system from the installer and click on the install button
-6. wait for the install to complete, allow the process to upgrade the distro and reboot
-7. install Remote Desktop capability (Help is here: https://www.youtube.com/watch?v=BxqnhEqPyGg)
-8. in a terminal install "tightvncserver": sudo apt-get install tightvncserver
-9. in a terminal install "xrdp": sudo apt-get install xrdp
+1.  Download and extract the Raspberry NOOB installer to a formatted SD card (Help is here: https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up)
+2.  Add a mouse and keyboard to the white USB ports
+3.  attach a monitor to the micro-HDMI port
+4.  insert the SD card into Raspberry Pi 4 and supply power
+5.  choose the Raspbian operating system from the installer and click on the install button
+6.  wait for the install to complete, allow the process to upgrade the distro and reboot
+7.  install Remote Desktop capability (Help is here: https://www.youtube.com/watch?v=BxqnhEqPyGg)
+8.  in a terminal install "tightvncserver": sudo apt-get install tightvncserver
+9.  in a terminal install "xrdp": sudo apt-get install xrdp
 10. in a terminal issue ifconfig command and retrieve the ip address of you raspberry. (eg: 192.168.1.15)
-11. test
+11. connect external drive(s) and mount them using the guidance found here: https://www.raspberrypi.org/documentation/configuration/external-storage.md. Please note to also               update fstab so that the disk will be automatically mounted on reboot.
+12. NTFS disks created using Windows 10 may require fixing by issuing the command "sudo ntfsfix -b -d /dev/sdaX" (where X is a number). Use "sudo fdisk -l" to find the drive              assignment you need.
+13. 
