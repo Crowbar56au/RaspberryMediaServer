@@ -10,4 +10,4 @@
 10. in a terminal issue ifconfig command and retrieve the ip address of you raspberry. (eg: 192.168.1.15)
 11. connect external drive(s) and mount them using the guidance found here: https://www.raspberrypi.org/documentation/configuration/external-storage.md. Please note to also               update fstab so that the disk will be automatically mounted on reboot.
 12. NTFS disks created using Windows 10 may require fixing by issuing the command "sudo ntfsfix -b -d /dev/sdaX" (where X is a number). Use "sudo fdisk -l" to find the drive              assignment you need.
-13. 
+13. install Serviio software. Use the reference here: https://linuxconfig.org/how-to-install-serviio-media-server-on-raspberry-pi
